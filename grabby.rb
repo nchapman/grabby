@@ -11,7 +11,7 @@ class Grabby
   def run
     Dir.chdir(@config["path"])
 
-    Dir["#{@config["prefix"]}*"].each do |f|
+    Dir[@config["pattern"]].each do |f|
       begin
         file_name = "#{get_guid}#{File.extname(f)}"
 
