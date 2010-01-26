@@ -1,0 +1,3 @@
+A replacement for Grab Up written in Ruby.
+
+ruby grabby.rb start

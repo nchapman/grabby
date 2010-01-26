@@ -1,0 +1,8 @@
+prefix: Screen shot
+path: /Users/jsmith/Desktop
+url: http://example.com.com/s/
+ftp:
+    host: example.com
+    username: jsmith
+    password: p@ssw0rd
+    path: /domains/example.com/html/s
