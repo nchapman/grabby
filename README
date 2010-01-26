@@ -1,3 +1,22 @@
 A replacement for Grab Up written in Ruby.
 
-ruby grabby.rb start
+== Dependencies
+1. sudo gem install daemons
+2. sudo gem install ruby-growl
+
+== Configuration
+1. Copy grabby.yml.example to grabby.yml. Change the options in there as you see fit.
+2. If you are using Growl, go to System Preferences > Growl > Network. Enable "Listen for incoming notifications" and "Allow remote application registration."
+
+== Run it
+1. Go to the directory containing grabby.rb in your terminal.
+2. ./grabby.rb run
+3. Take a screen shot and see it upload!
+4. Ctrl-c kills it.
+5. You can run grabby in the background using grabby.rb start|restart|stop or by using the Mac OS X Launch Agent.
+
+== Mac OS X Launch Agent
+To automatically run Grabby at login:
+1. Edit com.nchapman.grabby.plist and correct the path to grabby.rb.
+2. Copy com.nchapman.grabby.plist to ~/Library/LaunchAgents.
+3. Logout and login.
