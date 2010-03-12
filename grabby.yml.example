@@ -1,6 +1,6 @@
 pattern: Screen shot*
 path: /Users/nchapman/Desktop
-url: http://example.com.com/s/
+url: http://example.com/s/
 ftp:
     host: example.com
     username: nchapman
